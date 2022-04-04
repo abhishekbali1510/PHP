@@ -1,5 +1,5 @@
 <?php
-
+    require 'sqlConnection.php';
     //insert query
     $sql = "INSERT INTO `Details` (`Name`, `Mobile`) VALUES ('".$_POST["Name"]."','".$_POST["Phone"]."');";
     $conn->query($sql);
